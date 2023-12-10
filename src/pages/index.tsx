@@ -67,11 +67,6 @@ export default function Home() {
                 CSS
               </Button>
             </Link>
-            <Link href="https://sass-lang.com/">
-              <Button style={{ borderRadius: 0 }} variant="outline-info">
-                SASS
-              </Button>
-            </Link>
             <Link href="https://www.w3schools.com/js/">
               <Button style={{ borderRadius: 0 }} variant="outline-info">
                 Javascript
@@ -80,11 +75,6 @@ export default function Home() {
             <Link href="https://www.typescriptlang.org/">
               <Button style={{ borderRadius: 0 }} variant="outline-info">
                 Typescript
-              </Button>
-            </Link>
-            <Link href="https://www.markdownguide.org/">
-              <Button style={{ borderRadius: 0 }} variant="outline-info">
-                Markdown
               </Button>
             </Link>
           </div>
@@ -108,11 +98,6 @@ export default function Home() {
                 React
               </Button>
             </Link>
-            <Link href="https://mui.com/">
-              <Button style={{ borderRadius: 0 }} variant="outline-info">
-                MUI
-              </Button>
-            </Link>
             <Link href="https://redux.js.org/">
               <Button style={{ borderRadius: 0 }} variant="outline-info">
                 Redux
@@ -131,21 +116,6 @@ export default function Home() {
             <Link href="https://playwright.dev/">
               <Button style={{ borderRadius: 0 }} variant="outline-info">
                 Playwright
-              </Button>
-            </Link>
-            <Link href="https://reactnative.dev/">
-              <Button style={{ borderRadius: 0 }} variant="outline-info">
-                React Native
-              </Button>
-            </Link>
-            <Link href="https://reactnativepaper.com/">
-              <Button style={{ borderRadius: 0 }} variant="outline-info">
-                React Native Paper
-              </Button>
-            </Link>
-            <Link href="https://nodejs.org/en">
-              <Button style={{ borderRadius: 0 }} variant="outline-info">
-                Node.js
               </Button>
             </Link>
           </div>
@@ -169,11 +139,6 @@ export default function Home() {
                 webpack
               </Button>
             </Link>
-            <Link href="https://vitejs.dev/">
-              <Button style={{ borderRadius: 0 }} variant="outline-info">
-                vite
-              </Button>
-            </Link>
             <Link href="https://www.json.org/json-en.html">
               <Button style={{ borderRadius: 0 }} variant="outline-info">
                 JSON
@@ -182,31 +147,6 @@ export default function Home() {
             <Link href="https://www.ibm.com/topics/rest-apis">
               <Button style={{ borderRadius: 0 }} variant="outline-info">
                 REST API
-              </Button>
-            </Link>
-            <Link href="https://eslint.org/">
-              <Button style={{ borderRadius: 0 }} variant="outline-info">
-                ESLint
-              </Button>
-            </Link>
-            <Link href="https://prettier.io/">
-              <Button style={{ borderRadius: 0 }} variant="outline-info">
-                Prettier
-              </Button>
-            </Link>
-            <Link href="https://code.visualstudio.com/">
-              <Button style={{ borderRadius: 0 }} variant="outline-info">
-                VS Code
-              </Button>
-            </Link>
-            <Link href="https://www.contentful.com/">
-              <Button style={{ borderRadius: 0 }} variant="outline-info">
-                Contentful
-              </Button>
-            </Link>
-            <Link href="https://vercel.com/">
-              <Button style={{ borderRadius: 0 }} variant="outline-info">
-                Vercel
               </Button>
             </Link>
           </div>

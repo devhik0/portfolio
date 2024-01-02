@@ -36,10 +36,7 @@ export default function Home() {
               <span className="px-1 text-gray-800 hover:bg-[#0dcaf0] transition duration-300 border-b-[1px] border-b-[#0dcaf0]">
                 web apps
               </span>
-              ,{" "}
-              <span className="px-1 text-gray-800 hover:bg-[#0dcaf0] transition duration-300 border-b-[1px] border-b-[#0dcaf0]">
-                mobile apps
-              </span>{" "}
+              ,
               <br /> and{" "}
               <Link href="https://github.com/devhiko?tab=repositories" className="no-underline text-[#0dcaf0]">
                 more

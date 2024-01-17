@@ -26,7 +26,7 @@ export const Layout = ({ children }: { children: ReactNode }) => {
               <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
-          <Link href="https://github.com/devhiko">
+          <Link href="https://github.com/devhik0">
             <Button style={{ borderRadius: 0 }} variant="outline-info">
               GitHub
             </Button>

@@ -38,7 +38,7 @@ export default function Home() {
               </span>
               ,
               <br /> and{" "}
-              <Link href="https://github.com/devhiko?tab=repositories" className="no-underline text-[#0dcaf0]">
+              <Link href="https://github.com/devhik0?tab=repositories" className="no-underline text-[#0dcaf0]">
                 more
               </Link>
               .
@@ -159,35 +159,6 @@ export default function Home() {
             border="info"
             style={{ width: "20rem", marginBottom: "1rem", padding: "1rem", borderRadius: 0 }}
           >
-            <Card.Img alt="recipe" variant="top" className="rounded-lg" src="/recipe.webp" />
-            <Card.Body>
-              <Card.Title>Recipe App</Card.Title>
-              <Card.Text>Some food recipes app with PWA and Firebase for viewing food recipes</Card.Text>
-            </Card.Body>
-            <ListGroup variant="flush">
-              <ListGroup.Item style={{ background: "#212529", color: "#9ca3af" }}>Javascript</ListGroup.Item>
-              <ListGroup.Item style={{ background: "#212529", color: "#9ca3af" }}>Firebase</ListGroup.Item>
-              <ListGroup.Item style={{ background: "#212529", color: "#9ca3af" }}>PWA</ListGroup.Item>
-            </ListGroup>
-            <Card.Body className="mt-2 flex flex-row gap-x-2 justify-center">
-              <Card.Link href="https://github.com/devhiko/recipes-pwa">
-                <Button style={{ borderRadius: 0 }} variant="outline-info">
-                  Source
-                </Button>
-              </Card.Link>
-              <Card.Link href="https://food-ninja-pwa-37ba7.firebaseapp.com/">
-                <Button style={{ borderRadius: 0 }} variant="outline-info">
-                  Project
-                </Button>
-              </Card.Link>
-            </Card.Body>
-          </Card>
-
-          <Card
-            bg="dark"
-            border="info"
-            style={{ width: "20rem", marginBottom: "1rem", padding: "1rem", borderRadius: 0 }}
-          >
             <Card.Img alt="todo" variant="top" className="rounded-lg" src="/todo.webp" />
             <Card.Body>
               <Card.Title>Todo App</Card.Title>
@@ -298,8 +269,37 @@ export default function Home() {
               </Card.Link>
             </Card.Body>
           </Card>
+
+          <Card
+            bg="dark"
+            border="info"
+            style={{ width: "20rem", marginBottom: "1rem", padding: "1rem", borderRadius: 0 }}
+          >
+            <Card.Img alt="bookstore" variant="top" className="rounded-lg" src="/bookstore.webp" />
+            <Card.Body>
+              <Card.Title>Bookstore E-Commerce App</Card.Title>
+              <Card.Text>Some bookstore app with Next.js, Typescript and Tailwind.</Card.Text>
+            </Card.Body>
+            <ListGroup variant="flush">
+              <ListGroup.Item style={{ background: "#212529", color: "#9ca3af" }}>Next.js</ListGroup.Item>
+              <ListGroup.Item style={{ background: "#212529", color: "#9ca3af" }}>Tailwind</ListGroup.Item>
+              <ListGroup.Item style={{ background: "#212529", color: "#9ca3af" }}>Typescript</ListGroup.Item>
+            </ListGroup>
+            <Card.Body className="mt-2 flex flex-row gap-x-2 justify-center">
+              <Card.Link href="https://github.com/devhik0/bookstore-client">
+                <Button style={{ borderRadius: 0 }} variant="outline-info">
+                  Source
+                </Button>
+              </Card.Link>
+              <Card.Link href="https://github.com/devhik0/bookstore-client">
+                <Button style={{ borderRadius: 0 }} variant="outline-info">
+                  Project
+                </Button>
+              </Card.Link>
+            </Card.Body>
+          </Card>
         </CardGroup>
-        <Link href="https://github.com/devhiko?tab=repositories" className="no-underline text-gray-400">
+        <Link href="https://github.com/devhik0?tab=repositories" className="no-underline text-gray-400">
           <span className="text-center text-xl">and more...</span>
         </Link>
       </div>
@@ -307,7 +307,7 @@ export default function Home() {
       {/* contact */}
       <div id="contact" className="w-full flex items-center justify-center my-4">
         <div className="flex flex-row gap-x-4 ">
-          <Link href="https://github.com/devhiko" className="no-underline text-[#0dcaf0]">
+          <Link href="https://github.com/devhik0" className="no-underline text-[#0dcaf0]">
             <Button style={{ borderRadius: 0 }} variant="outline-info">
               <span>Follow me on GitHub</span>
             </Button>

@@ -25,7 +25,7 @@ export default function Home() {
             <span className="px-1 text-2xl leading-10">Hello, i am Hikmet</span> <br />
             <span className="px-1 text-2xl">I am a</span>{" "}
             <span className="px-1 text-2xl border-b-[1px] border-b-[#0dcaf0] hover:bg-[#0dcaf0] transition duration-300 text-gray-800">
-              Frontend Web Developer
+              Fullstack | Mobile Developer
             </span>
             <p className="text-2xl">
               from Turkey. I have a passion about designing <br /> and developing{" "}
@@ -35,6 +35,10 @@ export default function Home() {
               ,{" "}
               <span className="px-1 text-gray-800 hover:bg-[#0dcaf0] transition duration-300 border-b-[1px] border-b-[#0dcaf0]">
                 web apps
+              </span>
+              ,{" "}
+              <span className="px-1 text-gray-800 hover:bg-[#0dcaf0] transition duration-300 border-b-[1px] border-b-[#0dcaf0]">
+                mobile apps
               </span>
               ,
               <br /> and{" "}
@@ -72,6 +76,11 @@ export default function Home() {
             <Link href="https://www.typescriptlang.org/">
               <Button style={{ borderRadius: 0 }} variant="outline-info">
                 Typescript
+              </Button>
+            </Link>
+            <Link href="https://aws.amazon.com/what-is/sql/">
+              <Button style={{ borderRadius: 0 }} variant="outline-info">
+                SQL
               </Button>
             </Link>
           </div>
@@ -115,6 +124,11 @@ export default function Home() {
                 Playwright
               </Button>
             </Link>
+            <Link href="https://reactnative.dev/">
+              <Button style={{ borderRadius: 0 }} variant="outline-info">
+                React Native
+              </Button>
+            </Link>
           </div>
         </div>
         {/* tools & more */}
@@ -146,6 +160,26 @@ export default function Home() {
                 REST API
               </Button>
             </Link>
+            <Link href="https://www.linux.org/">
+              <Button style={{ borderRadius: 0 }} variant="outline-info">
+                Linux
+              </Button>
+            </Link>
+            <Link href="https://www.techtarget.com/searchcloudcomputing/definition/cloud-infrastructure">
+              <Button style={{ borderRadius: 0 }} variant="outline-info">
+                Cloud Infrastructure
+              </Button>
+            </Link>
+            <Link href="https://aws.amazon.com/devops/what-is-devops/#:~:text=DevOps%20is%20the%20combination%20of,development%20and%20infrastructure%20management%20processes.">
+              <Button style={{ borderRadius: 0 }} variant="outline-info">
+                DevOps
+              </Button>
+            </Link>
+            <Link href="https://en.wikipedia.org/wiki/Containerization">
+              <Button style={{ borderRadius: 0 }} variant="outline-info">
+                Containerization
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
@@ -154,35 +188,6 @@ export default function Home() {
       <div id="projects" className="w-full flex flex-col gap-x-4 p-2 mt-2 mx-auto justify-center items-center">
         <h3 className="mb-4">My Projects</h3>
         <CardGroup className="gap-x-6 px-2 flex flex-col border-r-0">
-          <Card
-            bg="dark"
-            border="info"
-            style={{ width: "20rem", marginBottom: "1rem", padding: "1rem", borderRadius: 0 }}
-          >
-            <Card.Img alt="todo" variant="top" className="rounded-lg" src="/todo.webp" />
-            <Card.Body>
-              <Card.Title>Todo App</Card.Title>
-              <Card.Text>Some Todo app with React and Typescript for tracking todos</Card.Text>
-            </Card.Body>
-            <ListGroup variant="flush">
-              <ListGroup.Item style={{ background: "#212529", color: "#9ca3af" }}>CSS</ListGroup.Item>
-              <ListGroup.Item style={{ background: "#212529", color: "#9ca3af" }}>Typescript</ListGroup.Item>
-              <ListGroup.Item style={{ background: "#212529", color: "#9ca3af" }}>React</ListGroup.Item>
-            </ListGroup>
-            <Card.Body className="mt-2 flex flex-row gap-x-2 justify-center">
-              <Card.Link href="https://github.com/devhiko/todo-app-rct-ts">
-                <Button style={{ borderRadius: 0 }} variant="outline-info">
-                  Source
-                </Button>
-              </Card.Link>
-              <Card.Link href="https://todo-app-rct-ts.vercel.app/">
-                <Button style={{ borderRadius: 0 }} variant="outline-info">
-                  Project
-                </Button>
-              </Card.Link>
-            </Card.Body>
-          </Card>
-
           <Card
             bg="dark"
             border="info"

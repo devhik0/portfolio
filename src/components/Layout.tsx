@@ -28,7 +28,7 @@ export const Layout = ({ children }: { children: ReactNode }) => {
           </Navbar.Collapse>
           <Link href="https://github.com/devhik0">
             <Button style={{ borderRadius: 0 }} variant="outline-info">
-              GitHub
+              Github
             </Button>
           </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

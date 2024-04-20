@@ -20,7 +20,7 @@ export default function Home() {
       <div id="about">
         <h1 className="text-center p-2">Welcome to my Portfolio !</h1>
         <div className="flex flex-col gap-y-4 p-4 justify-center items-center md:flex-row gap-x-8">
-          <Image src={"/me.webp"} alt="me" width={200} height={200} />
+          <Image src={"/me.jpg"} alt="me" width={200} height={200} />
           <div className="w-full text-left sm:w-1/2">
             <span className="px-1 text-2xl leading-10">Hello, i am Hikmet</span> <br />
             <span className="px-1 text-2xl">I am a</span>{" "}
@@ -175,7 +175,7 @@ export default function Home() {
                 DevOps
               </Button>
             </Link>
-            <Link href="https://en.wikipedia.org/wiki/Containerization">
+            <Link href="https://www.ibm.com/topics/containerization">
               <Button style={{ borderRadius: 0 }} variant="outline-info">
                 Containerization
               </Button>

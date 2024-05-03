@@ -177,7 +177,7 @@ export default function Home() {
             </Link>
             <Link href="https://www.ibm.com/topics/containerization">
               <Button style={{ borderRadius: 0 }} variant="outline-info">
-                Containerization
+                Containerization & Orchestration
               </Button>
             </Link>
           </div>
@@ -188,35 +188,6 @@ export default function Home() {
       <div id="projects" className="w-full flex flex-col gap-x-4 p-2 mt-2 mx-auto justify-center items-center">
         <h3 className="mb-4">My Projects</h3>
         <CardGroup className="gap-x-6 px-2 flex flex-col border-r-0">
-          <Card
-            bg="dark"
-            border="info"
-            style={{ width: "20rem", marginBottom: "1rem", padding: "1rem", borderRadius: 0 }}
-          >
-            <Card.Img alt="kiratakip" variant="top" className="rounded-lg" src="/kiratakip.webp" />
-            <Card.Body>
-              <Card.Title>Kiratakip App</Card.Title>
-              <Card.Text>Some rent track app for tracking rents and tenants</Card.Text>
-            </Card.Body>
-            <ListGroup variant="flush">
-              <ListGroup.Item style={{ background: "#212529", color: "#9ca3af" }}>Typescript</ListGroup.Item>
-              <ListGroup.Item style={{ background: "#212529", color: "#9ca3af" }}>Next.js</ListGroup.Item>
-              <ListGroup.Item style={{ background: "#212529", color: "#9ca3af" }}>Contentful</ListGroup.Item>
-            </ListGroup>
-            <Card.Body className="mt-2 flex flex-row gap-x-2 justify-center">
-              <Card.Link href="https://github.com/devhiko/kiratakip">
-                <Button style={{ borderRadius: 0 }} variant="outline-info">
-                  Source
-                </Button>
-              </Card.Link>
-              <Card.Link href="https://kiratakip.vercel.app/">
-                <Button style={{ borderRadius: 0 }} variant="outline-info">
-                  Project
-                </Button>
-              </Card.Link>
-            </Card.Body>
-          </Card>
-
           <Card
             bg="dark"
             border="info"
@@ -297,6 +268,36 @@ export default function Home() {
                 </Button>
               </Card.Link>
               <Card.Link href="https://github.com/devhik0/bookstore-client">
+                <Button style={{ borderRadius: 0 }} variant="outline-info">
+                  Project
+                </Button>
+              </Card.Link>
+            </Card.Body>
+          </Card>
+
+          <Card
+            bg="dark"
+            border="info"
+            style={{ width: "20rem", marginBottom: "1rem", padding: "1rem", borderRadius: 0 }}
+          >
+            <Card.Img alt="crmsaas" variant="top" className="rounded-lg" src="/dashboard.webp" />
+            <Card.Body>
+              <Card.Title>CRM SaaS App</Card.Title>
+              <Card.Text>Some CRM SaaS with Next.js, Typescript, Tailwind and Convex</Card.Text>
+            </Card.Body>
+            <ListGroup variant="flush">
+              <ListGroup.Item style={{ background: "#212529", color: "#9ca3af" }}>Next.js</ListGroup.Item>
+              <ListGroup.Item style={{ background: "#212529", color: "#9ca3af" }}>Tailwind</ListGroup.Item>
+              <ListGroup.Item style={{ background: "#212529", color: "#9ca3af" }}>Typescript</ListGroup.Item>
+              <ListGroup.Item style={{ background: "#212529", color: "#9ca3af" }}>Convex</ListGroup.Item>
+            </ListGroup>
+            <Card.Body className="mt-2 flex flex-row gap-x-2 justify-center">
+              <Card.Link href="https://github.com/devhik0/crm-saas">
+                <Button style={{ borderRadius: 0 }} variant="outline-info">
+                  Source
+                </Button>
+              </Card.Link>
+              <Card.Link href="https://github.com/devhik0/crm-saas">
                 <Button style={{ borderRadius: 0 }} variant="outline-info">
                   Project
                 </Button>

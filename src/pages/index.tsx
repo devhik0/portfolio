@@ -233,7 +233,7 @@ export default function Home() {
               <ListGroup.Item style={{ background: "#212529", color: "#9ca3af" }}>Typescript</ListGroup.Item>
             </ListGroup>
             <Card.Body className="mt-2 flex flex-row gap-x-2 justify-center">
-              <Card.Link href="https://github.com/devhiko/dialer">
+              <Card.Link href="https://github.com/devhik0/dialer">
                 <Button style={{ borderRadius: 0 }} variant="outline-info">
                   Source
                 </Button>
@@ -262,12 +262,12 @@ export default function Home() {
               <ListGroup.Item style={{ background: "#212529", color: "#9ca3af" }}>Typescript</ListGroup.Item>
             </ListGroup>
             <Card.Body className="mt-2 flex flex-row gap-x-2 justify-center">
-              <Card.Link href="https://github.com/devhiko/musixapp">
+              <Card.Link href="https://github.com/devhik0/musixapp">
                 <Button style={{ borderRadius: 0 }} variant="outline-info">
                   Source
                 </Button>
               </Card.Link>
-              <Card.Link href="https://github.com/devhiko/musixapp">
+              <Card.Link href="https://github.com/devhik0/musixapp">
                 <Button style={{ borderRadius: 0 }} variant="outline-info">
                   Project
                 </Button>

@@ -24,23 +24,18 @@ export default function Home() {
           <div className="w-full text-left sm:w-1/2">
             <span className="px-1 text-2xl leading-10">Hello, i am Hikmet</span> <br />
             <span className="px-1 text-2xl">I am a</span>{" "}
-            <span className="px-1 text-2xl border-b-[1px] border-b-[#0dcaf0] hover:bg-[#0dcaf0] transition duration-300 text-gray-800">
-              Fullstack | Mobile Developer
+            <span className="px-1 text-2xl border-b-[1px] border-b-[#0dcaf0] bg-[#0dcaf0] transition duration-300 text-gray-800">
+              Frontend Developer
             </span>
             <p className="text-2xl">
               from Turkey. I have a passion about designing <br /> and developing{" "}
-              <span className="px-1 text-gray-800 hover:bg-[#0dcaf0] transition duration-300 border-b-[1px] border-b-[#0dcaf0]">
+              <span className="px-1 text-gray-800 bg-[#0dcaf0] transition duration-300 border-b-[1px] border-b-[#0dcaf0]">
                 user interfaces
               </span>
               ,{" "}
-              <span className="px-1 text-gray-800 hover:bg-[#0dcaf0] transition duration-300 border-b-[1px] border-b-[#0dcaf0]">
+              <span className="px-1 text-gray-800 bg-[#0dcaf0] transition duration-300 border-b-[1px] border-b-[#0dcaf0]">
                 web apps
               </span>
-              ,{" "}
-              <span className="px-1 text-gray-800 hover:bg-[#0dcaf0] transition duration-300 border-b-[1px] border-b-[#0dcaf0]">
-                mobile apps
-              </span>
-              ,
               <br /> and{" "}
               <Link href="https://github.com/devhik0?tab=repositories" className="no-underline text-[#0dcaf0]">
                 more
@@ -76,11 +71,6 @@ export default function Home() {
             <Link href="https://www.typescriptlang.org/">
               <Button style={{ borderRadius: 0 }} variant="outline-info">
                 Typescript
-              </Button>
-            </Link>
-            <Link href="https://aws.amazon.com/what-is/sql/">
-              <Button style={{ borderRadius: 0 }} variant="outline-info">
-                SQL
               </Button>
             </Link>
           </div>
@@ -124,11 +114,6 @@ export default function Home() {
                 Playwright
               </Button>
             </Link>
-            <Link href="https://reactnative.dev/">
-              <Button style={{ borderRadius: 0 }} variant="outline-info">
-                React Native
-              </Button>
-            </Link>
           </div>
         </div>
         {/* tools & more */}
@@ -158,26 +143,6 @@ export default function Home() {
             <Link href="https://www.ibm.com/topics/rest-apis">
               <Button style={{ borderRadius: 0 }} variant="outline-info">
                 REST API
-              </Button>
-            </Link>
-            <Link href="https://www.linux.org/">
-              <Button style={{ borderRadius: 0 }} variant="outline-info">
-                Linux
-              </Button>
-            </Link>
-            <Link href="https://www.techtarget.com/searchcloudcomputing/definition/cloud-infrastructure">
-              <Button style={{ borderRadius: 0 }} variant="outline-info">
-                Cloud Infrastructure
-              </Button>
-            </Link>
-            <Link href="https://aws.amazon.com/devops/what-is-devops/#:~:text=DevOps%20is%20the%20combination%20of,development%20and%20infrastructure%20management%20processes.">
-              <Button style={{ borderRadius: 0 }} variant="outline-info">
-                DevOps
-              </Button>
-            </Link>
-            <Link href="https://www.ibm.com/topics/containerization">
-              <Button style={{ borderRadius: 0 }} variant="outline-info">
-                Containerization & Orchestration
               </Button>
             </Link>
           </div>
@@ -283,13 +248,13 @@ export default function Home() {
             <Card.Img alt="crmsaas" variant="top" className="rounded-lg" src="/dashboard.webp" />
             <Card.Body>
               <Card.Title>CRM SaaS App</Card.Title>
-              <Card.Text>Some CRM SaaS with Next.js, Typescript, Tailwind and Convex</Card.Text>
+              <Card.Text>Some CRM SaaS with Next.js, Typescript, Tailwind and Supabase</Card.Text>
             </Card.Body>
             <ListGroup variant="flush">
               <ListGroup.Item style={{ background: "#212529", color: "#9ca3af" }}>Next.js</ListGroup.Item>
               <ListGroup.Item style={{ background: "#212529", color: "#9ca3af" }}>Tailwind</ListGroup.Item>
               <ListGroup.Item style={{ background: "#212529", color: "#9ca3af" }}>Typescript</ListGroup.Item>
-              <ListGroup.Item style={{ background: "#212529", color: "#9ca3af" }}>Convex</ListGroup.Item>
+              <ListGroup.Item style={{ background: "#212529", color: "#9ca3af" }}>Supabase</ListGroup.Item>
             </ListGroup>
             <Card.Body className="mt-2 flex flex-row gap-x-2 justify-center">
               <Card.Link href="https://github.com/devhik0/crm-saas">

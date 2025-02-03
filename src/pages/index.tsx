@@ -174,7 +174,7 @@ export default function Home() {
                   Source
                 </Button>
               </Card.Link>
-              <Card.Link href="https://dialer-devhiko.vercel.app/kisiler">
+              <Card.Link href="https://dialer-devhik0s-projects.vercel.app/son">
                 <Button style={{ borderRadius: 0 }} variant="outline-info">
                   Project
                 </Button>
